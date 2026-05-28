@@ -4,8 +4,10 @@ TIMESTAMP=$(date +%s) # this command will give you the current timestamp in seco
 echo "Current timestamp: $TIMESTAMP"
 
 START_TIME=$(date +%s)
+
 sleep 10
-END_TIME$(date +%s)
+
+END_TIME=$(date +%s)
 
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 
