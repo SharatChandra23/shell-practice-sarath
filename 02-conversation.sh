@@ -3,7 +3,7 @@
 PERSON1=Trump
 PERSON2=Iran
 
-echo "${PERSON1}: Hey ${PERSON2}, we are going to blast you!"
+echo "$PERSON1: Hey $PERSON2, we are going to blast you!"
 echo "$PERSON2: Yes, please. you are welcome"
-echo "#PERSON1: Hey #PERSON1 I am serious"
+echo "$PERSON1: Hey $PERSON1 I am serious"
 echo "$PERSON2: Hey $PERSON1, we are also serious"
